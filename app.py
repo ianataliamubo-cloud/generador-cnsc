@@ -91,7 +91,7 @@ FORMATOS = {
 
 
 def obtener_fuente(estilo, tamano):
-    fname = "Utendo-Bold.ttf" if estilo == "Bold" else "Utendo-Regular.ttf"
+    fname = "fuentes/Utendo-Bold.ttf" if estilo == "Bold" else "fuentes/Utendo-Regular.ttf"
     try:
         return ImageFont.truetype(fname, tamano)
     except IOError:
